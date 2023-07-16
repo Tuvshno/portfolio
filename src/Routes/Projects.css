@@ -1,0 +1,76 @@
+.projects-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 46vh; /* Adjust as needed */
+  justify-content: center;
+  align-self: center;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(250px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+  max-height: 700px; /* Adjust this to fit your needs */
+  overflow-y: auto;
+  /* min-height: 100vh; */
+}
+
+
+.project-tag {
+  width: 30%;
+  font-size: 32px;
+  font-weight: 700;
+  color: #223030;
+  line-height: 39px;
+  display: flex;
+  align-items: center;
+  width: 95%;
+  padding-top: 30px;
+  padding-bottom: 25px;
+}
+
+
+.project-explain {
+  font-size: 16px;
+  grid-column: span 2;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 25px;
+  line-height: 27.2px;
+}
+
+.project-container {
+  padding-inline: 190px;
+}
+
+
+.card-grid::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.card-grid {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+/* 
+.card-grid::-webkit-scrollbar {
+  width: 5px;
+}
+
+.card-grid::-webkit-scrollbar-track {
+  background: transparent; 
+}
+ 
+.card-grid::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+.card-grid::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+} */
+

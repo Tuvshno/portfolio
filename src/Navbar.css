@@ -1,0 +1,102 @@
+.navbar-container {
+  background-color: none;
+  color: #223030;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin-left: 30px;
+
+}
+
+.navbar-nametag {
+  margin-top: 50px;
+  color: #486858;
+
+  /* background-color: antiquewhite; */
+  height: 100px;
+  cursor: pointer;
+  display: flex;
+  align-items: center; 
+  gap: 10px;
+  text-decoration: none; 
+}
+
+.name{
+  font-size: 12px;
+  font-weight: 700;
+  color: #223030;
+  overflow: none;
+
+}
+.job{
+  font-size: 12px;
+  font-weight: 400;
+  color: #223030;
+}
+
+.navbar-button-container {
+  /* background-color: azure; */
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin-top: 20px;
+}
+
+.navbar-button-section {
+  margin-bottom: 40px;
+}
+
+.navbar-button-section >p {
+  font-size: 11px;
+  font-weight: 700;
+  color: gray;
+}
+
+.navbar-button {
+  width: 100%;
+  background: none;
+  color: #223030;
+  /* color: black; */
+  
+
+  display: flex;
+
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 0.5em;
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  text-decoration: none; 
+  transition: background-color 0.25s;
+}
+
+.navbar-button:hover {
+  background-color: rgba(82, 61, 53, 0.2);
+}
+
+.button-icon {
+  margin-right: 10px;
+  align-self: center;
+}
+
+.section-tag {
+  color: #22303094;
+  font-size: 11px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  padding-left: 5px;
+}
+
+.navbar-button.active {
+  background-color: #E8D9CD;
+  font-weight: 700;
+  color: black;
+
+}
+
+.button-icon.active {
+  color: #486858;
+}
